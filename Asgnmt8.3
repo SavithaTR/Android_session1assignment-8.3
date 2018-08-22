@@ -1,0 +1,18 @@
+ #a. Find the probability that X is equal to 17 
+> pbinom(17,31, 0.447)
+[1] 0.9055597
+> #a. Find the probability that X is equal to 17 
+> dbinom(17,31, 0.447)
+[1] 0.07532248
+> #b. Find the probability that X is at most 13 
+> pbinom(13,31, 0.447)
+[1] 0.451357
+> #c. Find the probability that X is bigger than 11. 
+> 1-pbinom(11, 31, 0.447)
+[1] 0.8020339
+> #d. Find the probability that X is at least 15. 
+> 1-pbinom(14, 31, 0.447)
+[1] 0.406024
+> #e. Find the probability that X is between 16 and 19, inclusive
+> pbinom(19,31,0.447)-pbinom(16,31,0.447)
+[1] 0.1488671
